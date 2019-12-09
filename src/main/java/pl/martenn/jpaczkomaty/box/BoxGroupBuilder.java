@@ -32,6 +32,7 @@ public class BoxGroupBuilder {
         return this;
     }
 
+
     public BoxGroup build() {
         BoxGroup group = new BoxGroup();
         List<Box> boxes = new ArrayList<>();
